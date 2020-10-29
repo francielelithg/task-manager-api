@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @RestController
-@RequestMapping("/userTasks")
+@RequestMapping("/userTask")
 @Api(value = "Tasks")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Success"),
